@@ -13,6 +13,7 @@ group :development, :test do
   gem 'rspec-rails', '3.7.2'
   gem 'ZenTest', '4.11.2'
 end
+gem 'factory_girl_rails'
 
 group :test do
   gem 'cucumber-rails', :require => false
